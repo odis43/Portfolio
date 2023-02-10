@@ -84,11 +84,6 @@
 }
 
 :where(.css-1n7nwfa).ant-timeline .ant-timeline-item-head {
-    position: absolute;
-    width: 10px;
-    height: 10px;
     background-color: transparent !important;
-    border: 3px solid transparent;
-    border-radius: 50%;
 }
 
