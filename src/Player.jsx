@@ -31,7 +31,8 @@ const Player = forwardRef((props, ref) => {
   const client_secret = "fa2adee73b3947a4908411da82a5cc18";
 
   useEffect(() => {
-    const I = Math.floor(Math.random() * (A.albums.length - 1 - 0) + 0);
+    console.log("len" + A.albums.length);
+    const I = Math.floor(Math.random() * (A.albums.length + 1));
     const U = A.albums[I].url;
     setIndex(I);
     setURL(U);

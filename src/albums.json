@@ -23,7 +23,7 @@
         {
             "I": 3,
             "id": "7ylTeGpMy2RbFDMGSnYjX5",
-            "   ": "https://open.spotify.com/album/7ylTeGpMy2RbFDMGSnYjX5",
+            "url": "https://open.spotify.com/album/7ylTeGpMy2RbFDMGSnYjX5",
             "name": "Enter the 37th chamber"
         },
 
@@ -40,11 +40,45 @@
             "url": "https://open.spotify.com/album/480YjUeLRvXFcbS2HeXfuU",
             "name": "You"
         },
+
         {
             "I": 6,
             "id": "4UG3kz6qoHtNI1glQ2wdon",
             "url": "https://open.spotify.com/album/4UG3kz6qoHtNI1glQ2wdon",
             "name": "Operation: Doomsday"
+        },
+
+        {
+            "I": 7,
+            "id": "1ia31zeJsYQ4jYLX16is04?si=YfjJejv4TlqIutCQOU7UEQ",
+            "url": "https://open.spotify.com/album/1ia31zeJsYQ4jYLX16is04?si=YfjJejv4TlqIutCQOU7UEQ",
+            "name": "Continue?"
+        },
+
+        {
+            "I": 8,
+            "id": "53M9zXvxd0itS7VImk5i7R?si=rs2EnN8eQXmTw-06Vce0JQ",
+            "url": "https://open.spotify.com/album/53M9zXvxd0itS7VImk5i7R?si=rs2EnN8eQXmTw-06Vce0JQ",
+            "name": "IV"
+        },
+
+        {
+            "I": 9,
+            "id": "5Co3CGD9lBQVNnn7q0px1g?si=AQuHuiPlTqeWMpfuZ_GdAA",
+            "url": "https://open.spotify.com/album/5Co3CGD9lBQVNnn7q0px1g?si=AQuHuiPlTqeWMpfuZ_GdAA",
+            "name": "The Melodic Blue"
+        },
+        {
+            "I": 10,
+            "id": "6ICXg5mVxz9S7B8Y9rrHG9?si=2wJShDfORsG6pRV7bRzQlQ",
+            "url": "https://open.spotify.com/album/6ICXg5mVxz9S7B8Y9rrHG9?si=2wJShDfORsG6pRV7bRzQlQ",
+            "name": "99.9%"
+        },
+        {
+            "I": 11,
+            "id": "73cx7CQjHEROjjzUGP3UpQ?si=F6HZEw8eRbmVyBmBxphvmQ",
+            "url": "https://open.spotify.com/album/73cx7CQjHEROjjzUGP3UpQ?si=F6HZEw8eRbmVyBmBxphvmQ",
+            "name": "Bubba"
         }
 
     ]
