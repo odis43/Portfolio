@@ -20,7 +20,7 @@ const Experience = forwardRef((props,ref) => {
           <div className="timelineContent">
             <h3 className="workTitle">HealthCare Systems R&A</h3>
             <h4 className="workPosition">
-              Machine learning engineer | January 2023 - present
+              Machine Learning Engineer | January 2023 - present
             </h4>
             <ul >
               <li>Successfully developed a visually interactive game and designed an efficient training algorithm for a classifier, resulting in meeting team project milestones.</li>
@@ -37,10 +37,10 @@ const Experience = forwardRef((props,ref) => {
              Data Engineer | April 2022 - August 2022
             </h4>
             <ul>
-              <li>Utilized the Devo Platform to efficiently maintain large data logs</li>
-              <li>Designed and implemented an automation tool for seamless data transfer between AWS S3 and Azure Blob storage</li>
-              <li>Significantly boosted the performance of the Devo platform by 30% through optimized LINQ</li>
-              <li>Successfully collaborated with cross-functional teams in Asia and North America to resolve troubleshooting issues with the Devo platform</li>
+              <li>Utilized the Devo Platform to efficiently maintain large data logs.</li>
+              <li>Designed and implemented an automation tool for seamless data transfer between AWS S3 and Azure Blob storage.</li>
+              <li>Significantly boosted the performance of the Devo platform by 30% through optimized LINQ scripting.</li>
+              <li>Successfully collaborated with cross-functional teams in Asia and North America to resolve troubleshooting issues with the Devo platform.</li>
             </ul>
           </div>
         </Timeline.Item>

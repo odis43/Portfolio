@@ -12,11 +12,13 @@ const About = forwardRef((props,ref) => {
             <div className="about">
                 <h2>About</h2>
                 <p> I’m a computer science student at the University of Waterloo. </p>
-                <p >I am very interested in front end development, AI, machine
+                <p >I am very passionate about front-end development, AI, machine
                     learning and everything in between.  When I’m not working on
                     my assignments you can find me playing the guitar, 
-                    producing music, creating playlists in Spotify or playing squash!</p>
-                    <p>Feel free to click the follow button to listen to my music!</p>
+                    producing music, or playing squash!</p>
+                    <p>Feel free to click the follow button to listen to my music, or
+                        click the play button to see my current rotation!
+                    </p>
             </div>
             <Card 
                 position = {{left: '65%', top: '52%'}}
