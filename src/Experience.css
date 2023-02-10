@@ -1,7 +1,7 @@
 .experience-container {
     background-color: #121212;
     width: 86vw;
-    height: 100vh;
+    height: auto;
     float:right;
     overflow: hidden;
     color: white;
