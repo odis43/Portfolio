@@ -71,6 +71,14 @@
     margin-top: 2px;
 }
 
+.css-1n7nwfa.ant-timeline .ant-timeline-item-tail {
+    position: absolute;
+    inset-block-start: 44px;
+    inset-inline-start: 4px;
+    height: calc(100% - 60px) !important;
+    border-inline-start: 2px solid rgb(255, 255, 255) !important;
+}
+
 .css-dev-only-do-not-override-1n7nwfa.ant-timeline .ant-timeline-item-tail {
     position: absolute;
     inset-block-start: 44px;
