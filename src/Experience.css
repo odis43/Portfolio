@@ -56,6 +56,7 @@
 .timelineIcon {
     height: 60px;
     width: 60px;
+
 }
 
 :where(.css-dev-only-do-not-override-1n7nwfa).ant-timeline .ant-timeline-item-head {
@@ -75,10 +76,19 @@
     inset-block-start: 44px;
     inset-inline-start: 4px;
     height: calc(100% - 60px) !important;
-    border-inline-start: 2px solid rgb(255, 255, 255);
+    border-inline-start: 2px solid rgb(255, 255, 255) !important;
 }
 
 :where(.css-dev-only-do-not-override-1n7nwfa).ant-timeline .ant-timeline-item {
     padding-bottom:10px;
+}
+
+:where(.css-1n7nwfa).ant-timeline .ant-timeline-item-head {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: transparent !important;
+    border: 3px solid transparent;
+    border-radius: 50%;
 }
 

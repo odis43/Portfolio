@@ -99,7 +99,7 @@ const Player = forwardRef((props, ref) => {
           </div>
           <a href={url} target="_blank">
             <Card
-              position={{ left: "5rem", top: "10rem" }}
+              position={{ left: "5rem", top: "11rem" }}
               img={cover}
               height={"300px"}
               title={album}
