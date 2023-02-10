@@ -1,0 +1,50 @@
+.card{
+    background: #181818;
+    border-radius: 10px;
+    width: 192px;
+    overflow: hidden;
+    padding: 1.3rem;
+    font-family: 'Circular Std', sans-serif;
+    transition: background 0.5s ease
+}
+
+.card:hover {
+    background: #262626;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    
+}
+    
+
+.cardsWrap {
+    position: absolute;
+    margin: 0 !important;
+    
+}
+
+.cardImage {
+    width: 12rem;
+    margin-right: 0px;
+    height:12rem;
+    position: relative;
+    display: inline-block;
+    transition: transform 150ms ease-in-out;
+}
+
+.cardImage svg {
+    position: absolute;
+    top:112px;
+    left:112px;
+    display: hidden;
+}
+
+.cardText {
+    color: white;
+}
+

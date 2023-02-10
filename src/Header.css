@@ -1,0 +1,93 @@
+.header {
+    width: 13vw; /* width of the header */
+    height: 100vh; /* height of the header */
+    background-color: black; /* background color of the header */
+    float: left; /* float to the left of the viewport */
+    position: fixed;
+    padding: 10px;
+  }
+
+  .pages {
+    margin: 0;
+    padding-left: 1rem;
+    margin-bottom: 4rem;
+    list-style-type: none;
+    
+    
+  }
+
+  .header-list {
+   
+    font-weight: 300;
+    list-style-type: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.5rem 0.8rem;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+  } 
+
+
+  .header-container {
+    margin-top: 6rem;
+    color: rgb(164, 157, 157);
+    font-family: 'Circular Std', sans-serif;
+  }
+
+
+  .library {
+    font-weight: 100;
+    list-style-type: none;
+    border-radius: 5px;
+    padding: 0.5rem 2.5rem;
+    display: flex;
+    
+    font-size: smaller;
+    padding-bottom: 1rem;
+  }
+
+
+.icon {
+  width: 25px;
+  margin-right: 1rem;
+}
+
+table {
+  border-collapse:separate;
+  border-spacing: 0;
+  
+}
+
+.no-border-table {
+
+  margin: 0 auto;
+  margin-left: 2.3rem;
+  text-align: left;
+  height: 10px;
+  padding-bottom: 6rem;
+}
+
+tr {
+  display: flex;
+  height: 2.3rem;
+  align-items: center;
+  vertical-align:middle;
+  cursor: pointer;
+}
+
+a:hover {
+  color: white;
+  transition: all 0.3 ease-in-out;
+}
+
+tr:hover {
+  color: white;
+  transition: all 0.3 ease-in-out;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(164, 157, 157);
+  font-family: 'Circular Std', sans-serif;
+}

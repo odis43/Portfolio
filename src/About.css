@@ -1,0 +1,18 @@
+.about-container {
+    background-color: #121212;
+    width: 86vw;
+    height: 57vh;
+    float:right;
+    overflow: hidden;
+}
+
+.about {
+    width: 30vw;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    color: white;
+    font-family: 'Circular Std', sans-serif;
+    font-size: larger;
+}
+
+

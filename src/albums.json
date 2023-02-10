@@ -1,0 +1,51 @@
+{
+    "albums": [
+        {
+            "I": 0,
+            "id": "2scB1uhcCI1TSf6b9TCZK3",
+            "url": "https://open.spotify.com/album/2scB1uhcCI1TSf6b9TCZK3",
+            "name": "FutureSex"
+        },
+        {
+            "I": 1,
+            "id": "3QVjpIxcksDkJmOnvlOJjg",
+            "url": "https://open.spotify.com/album/3QVjpIxcksDkJmOnvlOJjg",
+            "name": "Forever Story"
+        },
+
+        {
+            "I": 2,
+            "id": "3PZx4Vntcp5T7UgdfjnFDa",
+            "url": "https://open.spotify.com/album/3PZx4Vntcp5T7UgdfjnFDa",
+            "name": "Soul Sold Seperately"
+        },
+
+        {
+            "I": 3,
+            "id": "7ylTeGpMy2RbFDMGSnYjX5",
+            "   ": "https://open.spotify.com/album/7ylTeGpMy2RbFDMGSnYjX5",
+            "name": "Enter the 37th chamber"
+        },
+
+        {
+            "I": 4,
+            "id": "7ycBtnsMtyVbbwTfJwRjSP",
+            "url": "https://open.spotify.com/album/7ycBtnsMtyVbbwTfJwRjSP",
+            "name": "To pimp a butterfly"
+        },
+
+        {
+            "I": 5,
+            "id": "480YjUeLRvXFcbS2HeXfuU",
+            "url": "https://open.spotify.com/album/480YjUeLRvXFcbS2HeXfuU",
+            "name": "You"
+        },
+        {
+            "I": 6,
+            "id": "4UG3kz6qoHtNI1glQ2wdon",
+            "url": "https://open.spotify.com/album/4UG3kz6qoHtNI1glQ2wdon",
+            "name": "Operation: Doomsday"
+        }
+
+    ]
+}

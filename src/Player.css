@@ -1,0 +1,26 @@
+.player-container {
+    background-color: #121212;
+    width: 86vw;
+    height: 90vh;
+    float:right;
+    overflow: hidden;
+}
+
+.player {
+    width: 30vw;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    color: white;
+    font-family: 'Circular Std', sans-serif;
+    font-size: larger;
+    position: relative;
+}
+
+:hover.coverArt{
+    cursor: pointer;
+}
+
+.refresh {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
