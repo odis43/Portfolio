@@ -28,7 +28,7 @@ const Projects = forwardRef((props, ref) => {
                 img={drawdle}
                 height={"300px"}
                 title="Drawdle"
-                body="2022 . ReactJS /   Image Recognition"
+                body="2022 . React js"
               />
             </button>
           }
@@ -69,7 +69,7 @@ const Projects = forwardRef((props, ref) => {
                 img={nostalgic}
                 height={"300px"}
                 title="Similarfy"
-                body="2022 . ReactJS / Spotify API"
+                body="2022 . Next js"
               />
             </button>
           }
@@ -106,7 +106,7 @@ const Projects = forwardRef((props, ref) => {
                 img={sentiment}
                 height={"300px"}
                 title="Sentiment-Bot"
-                body="2023 . Python / NLP"
+                body="2023 . Python"
               />
             </button>
           }
@@ -143,7 +143,7 @@ const Projects = forwardRef((props, ref) => {
                 img={website}
                 height={"300px"}
                 title="Personal Portfolio"
-                body="2023 . ReactJS / Front-End"
+                body="2023 . ReactJS"
               />
             </button>
           }
