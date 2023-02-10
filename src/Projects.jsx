@@ -81,8 +81,8 @@ const Projects = forwardRef((props, ref) => {
               <div className="modal-content">
                 {" "}
                 <p className="modal-para">
-                  Have you ever wanted to have "more" from a song? You end up
-                  searching endlessly to find another tune that sounds just like
+                  Have you ever wanted "more" from a song? You might be searching 
+                  endlessly to find another tune that sounds just like
                   your favorite but find dissapointing results. Similarfy
                   puts an end to this problem by intelligently searching for
                   similar songs to a given search using the Spotify API.
@@ -121,7 +121,8 @@ const Projects = forwardRef((props, ref) => {
                   Used pre-parsed Twitter data to train an NLP model to classify
                   sentences as "positive" or "negative". Data was split into
                   training and testing sets. The model was then evaluated and
-                  yielded an accuracy of 85%.
+                  yielded an accuracy of 85%.  The purpose of this project was to understand
+                  the general workflow of training ML models as well as the nuances to sentiment analysis.
                 </p>
                 <a href="" target="_blank">
                   <GitIcon />
@@ -154,8 +155,8 @@ const Projects = forwardRef((props, ref) => {
               <div className="modal-content">
                 {" "}
                 <p className="modal-para">
-                  I love music. Ever since I was a child, music has been an
-                  innate part of my life. I thought it was fitting to create a
+                 Ever since I was a child, music has been an
+                  innate part of my life. I thought it would be fitting to create a
                   personal portfolio that takes the form of an artist's Spotify
                   bio - mixing my love for development and music.
                 </p>
