@@ -71,7 +71,7 @@
     margin-top: 2px;
 }
 
-:where(.css-dev-only-do-not-override-1n7nwfa).ant-timeline .ant-timeline-item-tail {
+.css-dev-only-do-not-override-1n7nwfa.ant-timeline .ant-timeline-item-tail {
     position: absolute;
     inset-block-start: 44px;
     inset-inline-start: 4px;
@@ -79,11 +79,11 @@
     border-inline-start: 2px solid rgb(255, 255, 255) !important;
 }
 
-:where(.css-dev-only-do-not-override-1n7nwfa).ant-timeline .ant-timeline-item {
+.css-dev-only-do-not-override-1n7nwfa.ant-timeline .ant-timeline-item {
     padding-bottom:10px;
 }
 
-:where(.css-1n7nwfa).ant-timeline .ant-timeline-item-head {
+.css-1n7nwfa.ant-timeline .ant-timeline-item-head {
     background-color: transparent !important;
 }
 
