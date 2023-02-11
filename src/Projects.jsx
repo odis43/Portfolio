@@ -40,7 +40,7 @@ const Projects = forwardRef((props, ref) => {
               <div className="modal-content">
                 {" "}
                 <p className="modal-para">
-                  A full-stack web app with React, Bootstrap and the BLIP API
+                  A full-stack web app using React, Bootstrap and the BLIP API
                   (Bootstrapping Language-Imaging Pre-Training) for image
                   captioning. Challenge Drawdle with your drawing skills to see
                   who comes on top! Unfortunately, the BLIP API is now outdated
@@ -83,7 +83,7 @@ const Projects = forwardRef((props, ref) => {
                 <p className="modal-para">
                   Have you ever wanted "more" from a song? You might be searching 
                   endlessly to find another tune that sounds just like
-                  your favorite but find dissapointing results. Similarfy
+                  your favorite but find disappointing results. Similarfy
                   puts an end to this problem by intelligently searching for
                   similar songs to a given search using the Spotify API.
                 </p>
