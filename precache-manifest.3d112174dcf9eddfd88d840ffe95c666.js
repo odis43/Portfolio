@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "34f2ac08cfa6144bcc68",
+    "revision": "f653f4065f8798dfec65",
     "url": "/Portfolio/static/css/main.c45f4897.chunk.css"
   },
   {
-    "revision": "34f2ac08cfa6144bcc68",
-    "url": "/Portfolio/static/js/main.34f2ac08.chunk.js"
+    "revision": "f653f4065f8798dfec65",
+    "url": "/Portfolio/static/js/main.f653f406.chunk.js"
   },
   {
     "revision": "5765f91df8510adf2908",
@@ -21,7 +21,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "d439cbd442416f2b3f225c3feb8448fa",
-    "url": "/Portfolio/static/media/Oditha A resume.d439cbd4.pdf"
+    "url": "/Portfolio/static/media/Oditha_2023.d439cbd4.pdf"
   },
   {
     "revision": "c5a68c1a51d910dfe95ed8d11bfd0123",
@@ -100,7 +100,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/chain.47096806.svg"
   },
   {
-    "revision": "e780e13be0ca8112ae3ded6fdb9749cc",
+    "revision": "0e579bda9c6c77d5999e59ac13239305",
     "url": "/Portfolio/index.html"
   }
 ];
