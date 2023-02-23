@@ -10,7 +10,7 @@ import { ReactComponent as RadioIcon } from "./radio.svg";
 import { ReactComponent as ResumeIcon } from "./resume.svg";
 import { useEffect } from "react";
 import { useRef } from "react";
-import resume from "./Oditha A resume.pdf";
+import resume from "./Oditha_2023.pdf";
 
 const Header = ( {home, about, experience, projects} ) => {
 
