@@ -1,8 +1,8 @@
 import React from "react";
 import "./About.css";
-import Card from "./Card";
-import "./Card.css"
-import dog from "./dog.jpg";
+import Card from "/Users/odi/Documents/Portfolio/portfolio/src/Card/Card";
+import "/Users/odi/Documents/Portfolio/portfolio/src/Card/Card.css";
+import dog from "/Users/odi/Documents/Portfolio/portfolio/src/Photos/dog.jpg";
 import { forwardRef } from "react";
 
 const About = forwardRef((props,ref) => {

@@ -6,8 +6,8 @@ import axios from "axios";
 import "./Player.css";
 import * as A from "./albums.json";
 import { forwardRef } from "react";
-import { ReactComponent as PlayRound } from "./playround.svg";
-import Card from "./Card";
+import { ReactComponent as PlayRound } from "/Users/odi/Documents/Portfolio/portfolio/src/SVGs/playround.svg";
+import Card from "/Users/odi/Documents/Portfolio/portfolio/src/Card/Card";
 
 const Player = forwardRef((props, ref) => {
   const { refCover } = props;

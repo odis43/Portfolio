@@ -1,15 +1,15 @@
 import React from "react";
 import "./Projects.css";
 import { forwardRef } from "react";
-import Card from "./Card.jsx";
+import Card from "/Users/odi/Documents/Portfolio/portfolio/src/Card/Card";
 import "./Projects.css";
-import drawdle from "./drawdle.png";
-import nostalgic from "./nostalgic.jpg";
-import sentiment from "./sentiment.png";
-import website from "./website.jpeg";
+import drawdle from "/Users/odi/Documents/Portfolio/portfolio/src/Photos/drawdle.png";
+import nostalgic from "/Users/odi/Documents/Portfolio/portfolio/src/Photos/nostalgic.jpg";
+import sentiment from "/Users/odi/Documents/Portfolio/portfolio/src/Photos/sentiment.png";
+import website from "/Users/odi/Documents/Portfolio/portfolio/src/Photos/website.jpeg";
 import Popup from "reactjs-popup";
-import { ReactComponent as GitIcon } from "./git.svg";
-import { ReactComponent as ChainIcon } from "./chain.svg";
+import { ReactComponent as GitIcon } from "/Users/odi/Documents/Portfolio/portfolio/src/SVGs/git.svg";
+import { ReactComponent as ChainIcon } from "/Users/odi/Documents/Portfolio/portfolio/src/SVGs/chain.svg";
 import Carousel from "react-bootstrap/Carousel";
 
 const Projects = forwardRef((props, ref) => {

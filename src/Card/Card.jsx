@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as PlayRound } from "./playround.svg";
+import { ReactComponent as PlayRound } from "/Users/odi/Documents/Portfolio/portfolio/src/SVGs/playround.svg";
 import { useState } from "react";
 
 const Card = ({ position, img, height, title, body }) => {

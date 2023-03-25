@@ -1,16 +1,16 @@
 import React from "react";
 import "./Header.css";
-import { ReactComponent as LinkedIcon } from "./linkedin.svg";
-import { ReactComponent as GitIcon } from "./git.svg";
-import { ReactComponent as SpotIcon } from "./spotify.svg";
-import { ReactComponent as HomeIcon } from "./home.svg";
-import { ReactComponent as SearchIcon } from "./search.svg";
-import { ReactComponent as LibIcon } from "./library.svg";
-import { ReactComponent as RadioIcon } from "./radio.svg";
-import { ReactComponent as ResumeIcon } from "./resume.svg";
+import { ReactComponent as LinkedIcon } from "/Users/odi/Documents/Portfolio/portfolio/src/SVGs/linkedin.svg";
+import { ReactComponent as GitIcon } from "/Users/odi/Documents/Portfolio/portfolio/src/SVGs/git.svg";
+import { ReactComponent as SpotIcon } from "/Users/odi/Documents/Portfolio/portfolio/src/SVGs/spotify.svg";
+import { ReactComponent as HomeIcon } from "/Users/odi/Documents/Portfolio/portfolio/src/SVGs/home.svg";
+import { ReactComponent as SearchIcon } from "/Users/odi/Documents/Portfolio/portfolio/src/SVGs/search.svg";
+import { ReactComponent as LibIcon } from "/Users/odi/Documents/Portfolio/portfolio/src/SVGs/library.svg";
+import { ReactComponent as RadioIcon } from "/Users/odi/Documents/Portfolio/portfolio/src/SVGs/radio.svg";
+import { ReactComponent as ResumeIcon } from "/Users/odi/Documents/Portfolio/portfolio/src/SVGs/resume.svg";
 import { useEffect } from "react";
 import { useRef } from "react";
-import resume from "./Oditha_2023.pdf";
+import resume from "/Users/odi/Documents/Portfolio/portfolio/src/Oditha_2023.pdf";
 
 const Header = ( {home, about, experience, projects} ) => {
 

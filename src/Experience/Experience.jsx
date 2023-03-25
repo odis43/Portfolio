@@ -1,10 +1,10 @@
 import React from "react";
 import "./Experience.css";
-import { ReactComponent as Manulife } from "./manulife.svg";
-import { ReactComponent as Resume } from "./resume.svg";
+import { ReactComponent as Manulife } from "/Users/odi/Documents/Portfolio/portfolio/src/SVGs/manulife.svg";
+import { ReactComponent as Resume } from "/Users/odi/Documents/Portfolio/portfolio/src/SVGs/resume.svg";
 import { Timeline } from "antd";
-import healthcare from "./healthcare.png";
-import manulife from "./manulife.png";
+import healthcare from "/Users/odi/Documents/Portfolio/portfolio/src/Photos/healthcare.png";
+import manulife from "/Users/odi/Documents/Portfolio/portfolio/src/Photos/manulife.png";
 import { forwardRef } from "react";
 
 const Experience = forwardRef((props,ref) => {

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Hero.css";
-import { ReactComponent as PlayIcon } from "./play.svg";
-import { ReactComponent as ArtistIcon } from "./artist.svg";
-import { ReactComponent as FollowIcon } from "./follow.svg";
+import { ReactComponent as PlayIcon } from "/Users/odi/Documents/Portfolio/portfolio/src/SVGs/play.svg";
+import { ReactComponent as ArtistIcon } from "/Users/odi/Documents/Portfolio/portfolio/src/SVGs/artist.svg";
+import { ReactComponent as FollowIcon } from "/Users/odi/Documents/Portfolio/portfolio/src/SVGs/follow.svg";
 import { forwardRef } from "react";
 
 const Hero = forwardRef((props, ref) => {
