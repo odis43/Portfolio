@@ -11,6 +11,7 @@ import Popup from "reactjs-popup";
 import { ReactComponent as GitIcon } from "/Users/odi/Documents/Portfolio/portfolio/src/SVGs/git.svg";
 import { ReactComponent as ChainIcon } from "/Users/odi/Documents/Portfolio/portfolio/src/SVGs/chain.svg";
 import Carousel from "react-bootstrap/Carousel";
+import cutscene from "/Users/odi/Documents/Portfolio/portfolio/src/SVGs/cutscene.jpeg";
 
 const Projects = forwardRef((props, ref) => {
   const { refProjects } = props;
@@ -20,6 +21,41 @@ const Projects = forwardRef((props, ref) => {
         <h2>Projects</h2>
       </div>
       <div className="project-cards">
+        <Popup
+          trigger={
+            <button>
+              <Card
+                position={{ left: "25rem", top: "10px" }}
+                img={cutscene}
+                height={"300px"}
+                title="Cutscene"
+                body="2023 . React js"
+              />
+            </button>
+          }
+          modal
+        >
+          {(close) => (
+            <div className="modal">
+              <div className="modal-head">Cutscene</div>
+              <div className="modal-content">
+                {" "}
+                <p className="modal-para">
+                  A platform for gamers to create lists and reviews of their
+                  favourite games for others to see. Built with React js and
+                  user data + authentication built over Firebase.
+                </p>
+                <a href="https://github.com/odis43/Cutscene" target="_blank">
+                  <GitIcon />
+                </a>
+                <div style={{ "padding-top": "5px" }}>
+                  <h3>Skills</h3>
+                  <p>React js | Node js | Firebase | Tailwind css</p>
+                </div>
+              </div>
+            </div>
+          )}
+        </Popup>
         <Popup
           trigger={
             <button>
@@ -65,43 +101,6 @@ const Projects = forwardRef((props, ref) => {
           trigger={
             <button>
               <Card
-                position={{ left: "25rem", top: "10px" }}
-                img={nostalgic}
-                height={"300px"}
-                title="Similarfy"
-                body="2022 . Next js"
-              />
-            </button>
-          }
-          modal
-        >
-          {(close) => (
-            <div className="modal">
-              <div className="modal-head">Similarfy</div>
-              <div className="modal-content">
-                {" "}
-                <p className="modal-para">
-                  Have you ever wanted "more" from a song? You might be searching 
-                  endlessly to find another tune that sounds just like
-                  your favorite but find disappointing results. Similarfy
-                  puts an end to this problem by intelligently searching for
-                  similar songs to a given search using the Spotify API.
-                </p>
-                <a href="https://github.com/odis43/Nostalgify" target="_blank">
-                  <GitIcon />
-                </a>
-                <div style={{ "padding-top": "5px" }}>
-                  <h3>Skills</h3>
-                  <p>Next js | Node js | Spotify API</p>
-                </div>
-              </div>
-            </div>
-          )}
-        </Popup>
-        <Popup
-          trigger={
-            <button>
-              <Card
                 position={{ left: "45rem", top: "10px" }}
                 img={sentiment}
                 height={"300px"}
@@ -121,8 +120,9 @@ const Projects = forwardRef((props, ref) => {
                   Used pre-parsed Twitter data to train an NLP model to classify
                   sentences as "positive" or "negative". Data was split into
                   training and testing sets. The model was then evaluated and
-                  yielded an accuracy of 85%.  The purpose of this project was to understand
-                  the general workflow of training ML models as well as the nuances to sentiment analysis.
+                  yielded an accuracy of 85%. The purpose of this project was to
+                  understand the general workflow of training ML models as well
+                  as the nuances to sentiment analysis.
                 </p>
                 <a href="" target="_blank">
                   <GitIcon />
@@ -155,10 +155,10 @@ const Projects = forwardRef((props, ref) => {
               <div className="modal-content">
                 {" "}
                 <p className="modal-para">
-                 Ever since I was a child, music has been an
-                  innate part of my life. I thought it would be fitting to create a
-                  personal portfolio that takes the form of an artist's Spotify
-                  bio - mixing my love for development and music.
+                  Ever since I was a child, music has been an innate part of my
+                  life. I thought it would be fitting to create a personal
+                  portfolio that takes the form of an artist's Spotify bio -
+                  mixing my love for development and music.
                 </p>
                 <a href="https://github.com/odis43/Portfolio" target="_blank">
                   <GitIcon />

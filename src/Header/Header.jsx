@@ -10,25 +10,24 @@ import { ReactComponent as RadioIcon } from "/Users/odi/Documents/Portfolio/port
 import { ReactComponent as ResumeIcon } from "/Users/odi/Documents/Portfolio/portfolio/src/SVGs/resume.svg";
 import { useEffect } from "react";
 import { useRef } from "react";
-import resume from "/Users/odi/Documents/Portfolio/portfolio/src/Oditha_2023.pdf";
+import resume from "/Users/odi/Documents/Portfolio/portfolio/src/Oditha_2024.pdf";
 
-const Header = ( {home, about, experience, projects} ) => {
-
+const Header = ({ home, about, experience, projects }) => {
   const handleHome = () => {
     home.current.scrollIntoView({ behavior: "smooth" });
   };
 
   const handleAbout = () => {
-      about.current.scrollIntoView({ behavior: "smooth" });
+    about.current.scrollIntoView({ behavior: "smooth" });
   };
 
   const handleExperience = () => {
     experience.current.scrollIntoView({ behavior: "smooth" });
-};
+  };
 
   const handleProjects = () => {
-  projects.current.scrollIntoView({ behavior: "smooth" });
-};
+    projects.current.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <div className="header">
@@ -141,7 +140,8 @@ const Header = ( {home, about, experience, projects} ) => {
                 <a
                   className="sm-list"
                   href="https://open.spotify.com/artist/2Uge6cHJuL1YKoZAMvTiGA?si=8d652b13c0164c53"
-                  target="_blank">
+                  target="_blank"
+                >
                   Spotify
                 </a>
               </td>
@@ -151,10 +151,7 @@ const Header = ( {home, about, experience, projects} ) => {
                 <ResumeIcon className="icon" />
               </td>
               <td>
-                <a
-                  className="sm-list"
-                  href={resume}
-                  target="_blank">
+                <a className="sm-list" href={resume} target="_blank">
                   Resume
                 </a>
               </td>

@@ -1,97 +1,97 @@
 .experience-container {
-    background-color: #121212;
-    width: 86vw;
-    height: auto;
-    float:right;
-    overflow: hidden;
-    color: white;
-    font-family: 'Circular Std', sans-serif;
-
+  background-color: #121212;
+  width: 86vw;
+  height: auto;
+  float: right;
+  overflow: hidden;
+  color: white;
+  font-family: "Circular Std", sans-serif;
 }
 
 .movement-container {
-    align-items: center
+  align-items: center;
 }
 
 .experience {
-    width: 30vw;
-    padding-left: 5rem;
-    padding-top: 2rem;
-    font-size: larger;
-    padding-bottom: 2rem;
-
+  width: 30vw;
+  padding-left: 5rem;
+  padding-top: 2rem;
+  font-size: larger;
+  padding-bottom: 2rem;
 }
 
 .lists {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .headings {
-    padding-left: 1.3rem;
+  padding-left: 1.3rem;
 }
 
 .unordered {
-    align-items: center;
+  align-items: center;
 }
 
 .activities {
-    padding-top: 3rem;
-    padding-left: 0rem;
+  padding-top: 3rem;
+  padding-left: 0rem;
 }
 
 .Timeline {
-    margin-left: 10%;
-    color: white;
-     font-family: 'Circular Std', sans-serif !important;
-
+  margin-left: 10%;
+  color: white;
+  font-family: "Circular Std", sans-serif !important;
 }
 
 .timelineContent {
-    margin-left: 2rem;
-    margin-bottom: 4rem;
-    font-size: larger;
-    width: 50rem;
+  margin-left: 2rem;
+  margin-bottom: 4rem;
+  font-size: larger;
+  width: 50rem;
 }
 
 .timelineIcon {
-    height: 60px;
-    width: 60px;
-
+  height: 60px;
+  width: 60px;
 }
 
-:where(.css-dev-only-do-not-override-1n7nwfa).ant-timeline .ant-timeline-item-head {
-    background-color: transparent;
+:where(.css-dev-only-do-not-override-1n7nwfa).ant-timeline
+  .ant-timeline-item-head {
+  background-color: transparent;
 }
 
-.workTitle  {
-    margin-bottom: 0rem;
+.workTitle {
+  margin-bottom: 0rem;
 }
 
 .workPosition {
-    margin-top: 2px;
+  margin-top: 2px;
 }
 
 .css-1n7nwfa.ant-timeline .ant-timeline-item-tail {
-    position: absolute;
-    inset-block-start: 44px;
-    inset-inline-start: 4px;
-    height: calc(100% - 60px) !important;
-    border-inline-start: 2px solid rgb(255, 255, 255) !important;
+  position: absolute;
+  inset-block-start: 44px;
+  inset-inline-start: 4px;
+  height: calc(100% - 60px) !important;
+  border-inline-start: 2px solid rgb(255, 255, 255) !important;
 }
 
 .css-dev-only-do-not-override-1n7nwfa.ant-timeline .ant-timeline-item-tail {
-    position: absolute;
-    inset-block-start: 44px;
-    inset-inline-start: 4px;
-    height: calc(100% - 60px) !important;
-    border-inline-start: 2px solid rgb(255, 255, 255) !important;
+  position: absolute;
+  inset-block-start: 44px;
+  inset-inline-start: 4px;
+  height: calc(100% - 60px) !important;
+  border-inline-start: 2px solid rgb(255, 255, 255) !important;
 }
 
 .css-dev-only-do-not-override-1n7nwfa.ant-timeline .ant-timeline-item {
-    padding-bottom:10px;
+  padding-bottom: 10px;
 }
 
 .css-1n7nwfa.ant-timeline .ant-timeline-item-head {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
+.timelinePara li {
+  padding-bottom: 10px;
+}

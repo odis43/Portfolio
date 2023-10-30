@@ -11,15 +11,6 @@ import Card from "/Users/odi/Documents/Portfolio/portfolio/src/Card/Card";
 
 const Player = forwardRef((props, ref) => {
   const { refCover } = props;
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
 
   const [index, setIndex] = useState(null);
   const [token, setToken] = useState(null);
@@ -32,7 +23,9 @@ const Player = forwardRef((props, ref) => {
 
   useEffect(() => {
     console.log("len" + A.albums.length);
+    //Grabs a random album from the list
     const I = Math.floor(Math.random() * (A.albums.length + 1));
+    //Grabs the url for the selected album
     const U = A.albums[I].url;
     setIndex(I);
     setURL(U);
