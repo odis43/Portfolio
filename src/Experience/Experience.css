@@ -53,6 +53,15 @@
 .timelineIcon {
   height: 60px;
   width: 60px;
+  background-color: transparent;
+  border: none;
+  padding-block: 0px;
+}
+
+.timelineIcon img {
+  background-color: transparent;
+  border: none !important;
+  padding-block: 0px;
 }
 
 :where(.css-dev-only-do-not-override-1n7nwfa).ant-timeline
@@ -94,4 +103,7 @@
 
 .timelinePara li {
   padding-bottom: 10px;
+}
+
+.timelineItem img {
 }
